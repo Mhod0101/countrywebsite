@@ -1,0 +1,81 @@
+/*
+
+selector {
+
+         property: value;
+        property: value;
+        property: value;
+        etc...
+
+
+}
+
+
+    writing selectors:
+
+    tagname -> selects all tags of type
+    .classname ->selects all memebers if a given class
+    tagname.classname -> only select tags that are also members of a given class 
+
+    > -> child symbol 
+
+
+    tagname>tagname
+    tagnamr>.classname
+    .classname>.classname
+    .classname>tagname
+
+
+
+
+*/
+
+.nav {
+
+    list-style: none;
+
+     border-style: groove;
+
+     padding-left: 0%;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+    
+    color: red;
+    
+ 
+    color: crimson;
+
+    
+
+}   
+
+.nav>li {
+
+   border-style: outset;
+
+   display: inline;
+
+   color: red;
+
+
+}
+
+.nav>li>a:hover{
+
+}
+  
+body {
+
+background-image: url(Images/what-are-polar-nights-in-norway-1.webp);
+
+}
+
+.home {
+
+    
+
+}
